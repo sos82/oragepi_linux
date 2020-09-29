@@ -1,1 +1,11 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="orangepi" fetch="https://github.com/orangepi-xunlong"/>  
+  <remote name="sos82" fetch="https://github.com/sos82"/>  
+  
+  <project path="kernel" name="mainline_kernel" remote="orangepi"/>
+  <project path="external" name="external" revision="orangepi-h3_v1.0" remote="orangepi"/>
+  <project path="toolchain" name="toolchain" revision="arm-linux-gnueabihf-7.2.1" remote="orangepi"/>
+  <project path="uboot" name="mainline_uboot" remote="orangepi"/>
+  <project path="scripts" name="orangepi-xunlong_scripts" remote="sos82"/>
+</manifest>
